@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cadastro</title> 
+    <script language="javascript" src="main.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Ficha Cadastral</h1>
+    </header>
+
+    <div>
+    <form action="index.html" method="post" action="mailto:jeanclauberemaildeexemplo@gmail.com">
+        <fieldset id="usuario">
+            <legend>Obrigatório estar todos os campos preenchidos.</legend>
+            <p><label for="cNome">Nome: </label><input type="text" name="tNome" id="cNome" required size="55" maxlength="55" placeholder="Nome completo." autocomplete="off" ></p>
+
+            <p><label for="cNum">RG:</label><input type="text" name="tNum" id="cNum" required size="13" maxlength="13" placeholder="11 numeros do RG" autocomplete="off"></p>
+
+            <p><label for="cCpf">CPF:</label><input type="text" name="tCpf" id="cCpf" required size="14" maxlength="14" placeholder="999.999.999-99" autocomplete="off" onkeyup="mascara_cpf()"></p>
+
+            <p><label for="cEnd">Endereço:</label><input type="text" name="tEnd" id="cEnd" required size="55" maxlength="55" placeholder="Seu endereço" autocomplete="off"></p>
+
+                <p><label for="">Sexo</label></p>
+                <select>
+                    <option value="Masc">Masculino</option>
+                    <option value="Fem">Feminino</option>
+                </select>
+                    
+            <p><label id="mnasc" for="cNasc">Data de Nascimento:</label><input type="text" size="14" name="tNasc" id="cNasc" required placeholder="99/99/9999" maxlength="10" onkeyup="mascara_nasc()"></p>
+            <fieldset id="civ">
+            <p><label>Situação Civil</label></p>
+                <p><input type="radio" name="tScv" id="cSol"> Solteiro </p>
+                <p><input type="radio" name="tScv" id="cCas"> Casado(a) </p>
+                <p><input type="radio" name="tScv" id="cViu"> Viúvo(a) </p>              
+            </fieldset>
+            <p></p>
+            <p><button id="enviar" type="submit"> Enviar dados</button></p>
+            <p><button id="reset" type="reset"> Limpar dados</button></p>
+        </fieldset>
+
+    </form>
+    </div>
+    
+</body>
+</html>
