@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+p#italico {
+    font-style: italic;
+}
+
+p#subl {
+    text-decoration: underline;
+}
+
+p#big {
+    font-size: 16pt;
+}

@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+h1{
+    text-align: center;
+    font-size: 30pt;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: justify;
+    text-indent: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+
+ul#regras {
+ display: block;
+ position: absolute;
+ left: 500px;
+}
+
+ul#regras li {
+    list-style: none;
+    padding: 2px;
+}
+
+div#setas {
+    text-align: center;
+}
+
+a {
+    background-color: #d3d3d3;
+    text-decoration: none;
+    color: #000000;
+    padding:3px; 
+}
+
+a#outras {
+    background-color: white;
+    color: #000000;
+    padding:3px; 
+}
+
+body a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+

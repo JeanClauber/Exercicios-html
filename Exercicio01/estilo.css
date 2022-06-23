@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body h1 {
+    text-align: center;
+    font-size: 30pt;
+}
+
+body h2 {
+    text-align: left;
+}
+
+body p {
+    margin-left: 4 0px;
+}

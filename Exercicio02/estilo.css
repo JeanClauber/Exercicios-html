@@ -1,0 +1,9 @@
+@charset 'UTF-8';
+
+body {
+    width: 370px;
+}
+
+body p {
+    text-align: justify;    
+}
